@@ -1,0 +1,4 @@
+ℂ ≡ {x | x∈Ψ∞ ∧ ∃y(y∈Ψ∞ ∧ x=Ω(y))} ⇔ "Space of all computations"
+   ℙ_c(x) ⇌ exp(-∫_0^∞ℂ(x,t)dt) / ∫ℂexp(-∫_0^∞ℂ(y,t)dt)dy ⇔ "Complexity-respecting measure"
+   𝕋 ≡ {T | T:ℂ→ℂ ∧ ∀x∈ℂ(T(x)=Ω(⍣⍤⍥(x)))} ⇔ "Set of all Turing machines"
+   ℧ ≡ {u | u:Ψ∞→[0,1] ∧ ∀x∈Ψ∞(u(x)=1-Ω(x)/sup(Ω))} ⇔ "Uncertainty quantification"
